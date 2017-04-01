@@ -9,7 +9,7 @@
   "properties": {
     "BizTalkAssemblies": {
       "type": "array",
-      "description": "Array of Reference Assemblies to be deployed."
+      "description": "Array of Reference Assemblies to be deployed.",
       "items": {
         "type": "object",
         "properties": {
@@ -47,7 +47,7 @@
       "type": "array",
       "description": "Sequence of Binding Files and Reference Assemblies used in Deployment.",
       "items": {
-        "type": "string",        
+        "type": "string"      
       }
     }
   },
